@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buggy — Shop Smarter</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ll">🛒 Buggy</div>
+  <div class="lb-w"><div class="lb" id="lb"></div></div>
+</div>
+
+<!-- CURSOR -->
+<div id="cd"></div>
+<div id="cr"></div>
+
+<!-- FLOATING CART -->
+<div class="floatc">🛒<div class="fcb">3</div></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo"><div class="logo-icon">🛒</div>Buggy</a>
+  <ul class="nav-links">
+    <li><a href="#cats">Shop</a></li>
+    <li><a href="#prods">Products</a></li>
+    <li><a href="#deals">Deals</a></li>
+    <li><a href="#trending">Trending</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="nic">🔍</div>
+    <div class="nic">♡</div>
+    <div class="nic">🛒<div class="nb">3</div></div>
+    <button class="btn-p">Sign Up →</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hblob hb1"></div><div class="hblob hb2"></div>
+  <div class="hdot" style="width:12px;height:12px;top:24%;left:7%;animation-delay:0s"></div>
+  <div class="hdot" style="width:8px;height:8px;top:62%;left:4%;animation-delay:-2s"></div>
+  <div class="hdot" style="width:16px;height:16px;top:14%;left:46%;animation-delay:-1s"></div>
+
+  <div class="hl">
+    <div class="hero-badge"><span class="bp"></span>✦ Summer 2026 — New Season</div>
+    <h1>Shop <span class="go">Smarter.</span><br>Live <span class="gc">Greener.</span></h1>
+    <p class="hero-p">Buggy brings you 5M+ curated products — from the latest tech to everyday essentials. Fast delivery, zero hassle, endless savings.</p>
+    <div class="hero-btns">
+      <button class="btn-p" style="padding:14px 30px;font-size:.97rem">🛍️ Start Shopping</button>
+      <button class="btn-o">⚡ Flash Deals</button>
+    </div>
+    <div class="hero-trust">
+      <div class="tavs">
+        <div class="tav">R</div><div class="tav">A</div><div class="tav">P</div><div class="tav">M</div>
+      </div>
+      <div class="ttext"><strong>500,000+</strong> happy shoppers<br>⭐ 4.9 / 5 average rating</div>
+    </div>
+  </div>
+
+  <div class="hr">
+    <div class="hcstack">
+      <div class="hc hc-bg"></div>
+      <div class="hc hc-main">
+        <div class="hpimg">
+          <div class="hchip">⚡ Hot Deal</div>
+          <span style="font-size:5.5rem;display:block;animation:fl2 6s ease-in-out infinite">🎧</span>
+        </div>
+        <div class="hcname">Sony WH-1000XM5</div>
+        <div class="hcbrand">Sony Electronics · Noise Cancelling</div>
+        <div class="hcbot">
+          <div class="hcprice">₹24,990</div>
+          <button class="hadd">+</button>
+        </div>
+      </div>
+      <div class="hfbadge hfb-a"><div class="fbi">🚚</div><div><div class="fblbl">Delivery</div><div class="fbval">Same Day</div></div></div>
+      <div class="hfbadge hfb-b"><div class="fbi">⭐</div><div><div class="fblbl">Rating</div><div class="fbval">4.9 / 5.0</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq">
+  <div class="mq-t">
+    <div class="mq-i">Free Shipping ₹999+ <span class="mq-sep">✦</span> New Drops Every Friday <span class="mq-sep">✦</span> 30-Day Returns <span class="mq-sep">✦</span> Verified Sellers <span class="mq-sep">✦</span> 500K+ Customers <span class="mq-sep">✦</span> Secure Checkout <span class="mq-sep">✦</span> 24/7 Support <span class="mq-sep">✦</span></div>
+    <div class="mq-i">Free Shipping ₹999+ <span class="mq-sep">✦</span> New Drops Every Friday <span class="mq-sep">✦</span> 30-Day Returns <span class="mq-sep">✦</span> Verified Sellers <span class="mq-sep">✦</span> 500K+ Customers <span class="mq-sep">✦</span> Secure Checkout <span class="mq-sep">✦</span> 24/7 Support <span class="mq-sep">✦</span></div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="sg rv">
+    <div class="sb rv rd1"><span class="si">📦</span><span class="sn" data-count="5000000">0</span><span class="sl">Products Listed</span></div>
+    <div class="sb rv rd2"><span class="si">😊</span><span class="sn" data-count="500000">0</span><span class="sl">Happy Customers</span></div>
+    <div class="sb rv rd3"><span class="si">⭐</span><span class="sn" data-count="99" data-suffix="%">0%</span><span class="sl">Satisfaction Rate</span></div>
+    <div class="sb rv rd4"><span class="si">🏷️</span><span class="sn" data-count="120" data-suffix="+">0+</span><span class="sl">Verified Brands</span></div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="cats" id="cats">
+  <div class="shdr">
+    <div><div class="slbl rv">Categories</div><h2 class="rv rd1">Browse by<br>your vibe.</h2><p class="sdesc rv rd2">From gadgets to groceries — all in one smooth ride.</p></div>
+    <a class="val rv" href="#">View all →</a>
+  </div>
+  <div class="cw">
+    <button class="cn cprev" onclick="sc('cat',-1)">‹</button>
+    <div class="cc" id="catC">
+      <div class="catc rv rd1"><div class="cimg"><span class="cemoji">📱</span></div><div class="cinfo"><div class="cname">Electronics</div><div class="ccnt">12,400+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv rd2"><div class="cimg"><span class="cemoji">👟</span></div><div class="cinfo"><div class="cname">Fashion</div><div class="ccnt">8,900+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv rd3"><div class="cimg"><span class="cemoji">🏠</span></div><div class="cinfo"><div class="cname">Home & Living</div><div class="ccnt">6,200+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv rd4"><div class="cimg"><span class="cemoji">🎮</span></div><div class="cinfo"><div class="cname">Gaming</div><div class="ccnt">3,800+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv"><div class="cimg"><span class="cemoji">💄</span></div><div class="cinfo"><div class="cname">Beauty</div><div class="ccnt">5,100+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv"><div class="cimg"><span class="cemoji">🏋️</span></div><div class="cinfo"><div class="cname">Sports</div><div class="ccnt">4,300+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv"><div class="cimg"><span class="cemoji">📚</span></div><div class="cinfo"><div class="cname">Books</div><div class="ccnt">22,000+ items</div></div><div class="carr">↗</div></div>
+      <div class="catc rv"><div class="cimg"><span class="cemoji">🍳</span></div><div class="cinfo"><div class="cname">Kitchen</div><div class="ccnt">3,500+ items</div></div><div class="carr">↗</div></div>
+    </div>
+    <button class="cn cnext" onclick="sc('cat',1)">›</button>
+    <div class="cdots" id="catDots"><div class="cdot active"></div><div class="cdot"></div><div class="cdot"></div></div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<div class="brands">
+  <div class="brands-in">
+    <div class="bname">NIKE</div><div class="bname">APPLE</div><div class="bname">SAMSUNG</div>
+    <div class="bname">SONY</div><div class="bname">ADIDAS</div><div class="bname">LEVI'S</div>
+    <div class="bname">IKEA</div><div class="bname">BOAT</div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section class="prods" id="prods">
+  <div class="shdr">
+    <div><div class="slbl rv">Featured</div><h2 class="rv rd1">What's hot<br>right now 🔥</h2><p class="sdesc rv rd2">Hand-picked bestsellers with incredible deals. Updated weekly.</p></div>
+    <a class="val rv" href="#">View all →</a>
+  </div>
+  <div class="cw">
+    <button class="cn cprev" onclick="sc('prod',-1)">‹</button>
+    <div class="pc-c" id="prodC">
+      <div class="pcard rv rd1"><div class="pimg"><div class="ptag tg">HOT</div><button class="pwish">♡</button><span class="pemoji">🎧</span></div><div class="pinfo"><div class="pbrand">Sony</div><div class="pname">WH-1000XM5 Noise Cancelling Headphones</div><div class="prat"><span class="stars">★★★★★</span><span class="rct">(2,841)</span></div><div class="pprice"><span class="pcur">₹24,990</span><span class="pold">₹34,990</span><span class="psave">−29%</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+      <div class="pcard rv rd2"><div class="pimg"><div class="ptag tn">NEW</div><button class="pwish">♡</button><span class="pemoji">⌚</span></div><div class="pinfo"><div class="pbrand">Apple</div><div class="pname">Apple Watch Ultra 2 — Titanium</div><div class="prat"><span class="stars">★★★★★</span><span class="rct">(1,204)</span></div><div class="pprice"><span class="pcur">₹89,900</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+      <div class="pcard rv rd3"><div class="pimg"><div class="ptag ts">SALE</div><button class="pwish">♡</button><span class="pemoji">👟</span></div><div class="pinfo"><div class="pbrand">Nike</div><div class="pname">Air Max 270 React — Triple Black</div><div class="prat"><span class="stars">★★★★☆</span><span class="rct">(892)</span></div><div class="pprice"><span class="pcur">₹8,995</span><span class="pold">₹12,995</span><span class="psave">−31%</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+      <div class="pcard rv rd4"><div class="pimg"><button class="pwish">♡</button><span class="pemoji">💻</span></div><div class="pinfo"><div class="pbrand">Samsung</div><div class="pname">Galaxy Book Pro 360 — 15.6"</div><div class="prat"><span class="stars">★★★★★</span><span class="rct">(543)</span></div><div class="pprice"><span class="pcur">₹1,09,990</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+      <div class="pcard rv"><div class="pimg"><div class="ptag tn">NEW</div><button class="pwish">♡</button><span class="pemoji">🕹️</span></div><div class="pinfo"><div class="pbrand">Sony</div><div class="pname">PS5 DualSense Edge Controller</div><div class="prat"><span class="stars">★★★★★</span><span class="rct">(3,127)</span></div><div class="pprice"><span class="pcur">₹17,990</span><span class="pold">₹19,990</span><span class="psave">−10%</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+      <div class="pcard rv"><div class="pimg"><div class="ptag ts">SALE</div><button class="pwish">♡</button><span class="pemoji">📷</span></div><div class="pinfo"><div class="pbrand">Canon</div><div class="pname">EOS R50 Mirrorless Camera Kit</div><div class="prat"><span class="stars">★★★★★</span><span class="rct">(678)</span></div><div class="pprice"><span class="pcur">₹69,990</span><span class="pold">₹84,990</span><span class="psave">−18%</span></div><button class="bcart" onclick="ac(this)">🛒 Add to Cart</button></div></div>
+    </div>
+    <button class="cn cnext" onclick="sc('prod',1)">›</button>
+    <div class="cdots" id="prodDots"><div class="cdot active"></div><div class="cdot"></div><div class="cdot"></div></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="feats">
+  <div class="shdr" style="margin-bottom:0">
+    <div><div class="slbl rv">Why Buggy</div><h2 class="rv rd1">Built for the<br>modern shopper.</h2></div>
+    <p class="sdesc rv rd2" style="color:rgba(255,255,255,.65)">Every feature designed to make shopping delightful, fast, and safe.</p>
+  </div>
+  <div class="fg">
+    <div class="fc rv rd1"><div class="fi">🚀</div><div class="ft">Lightning Delivery</div><div class="fd">Same-day delivery in select cities. 2-day nationwide guaranteed.</div></div>
+    <div class="fc rv rd2"><div class="fi">🔐</div><div class="ft">Secure Checkout</div><div class="fd">256-bit encryption and zero-liability fraud protection on every single order.</div></div>
+    <div class="fc rv rd3"><div class="fi">🔁</div><div class="ft">Easy Returns</div><div class="fd">30-day no-questions returns with free pickup and instant full refunds.</div></div>
+    <div class="fc rv rd4"><div class="fi">🎯</div><div class="ft">Smart Picks</div><div class="fd">AI recommendations that learn your taste and surface exactly what you need.</div></div>
+  </div>
+</section>
+
+<!-- DEALS -->
+<section class="deals" id="deals">
+  <div class="shdr">
+    <div><div class="slbl rv">Flash Sale</div><h2 class="rv rd1">Today's best<br>deals. ⚡</h2></div>
+    <a class="val rv" href="#">All deals →</a>
+  </div>
+  <div class="db rv">
+    <div>
+      <div class="dtag">⚡ Flash Sale — Live Now</div>
+      <h2>Up to 70% Off.<br>Today Only.</h2>
+      <p>Our biggest sale of the season. Limited stock, massive discounts on top brands. Don't miss it!</p>
+      <div class="dcd">
+        <div class="dbox"><span class="dnum" id="ch">08</span><span class="dlbl">Hours</span></div>
+        <div class="dbox"><span class="dnum" id="cm">34</span><span class="dlbl">Mins</span></div>
+        <div class="dbox"><span class="dnum" id="cs">22</span><span class="dlbl">Secs</span></div>
+      </div>
+    </div>
+    <div class="dr">
+      <div class="di"><div class="dem">📷</div><div><div class="din">Sony A7 IV Mirrorless</div><div class="dip">₹1,89,990 · Was ₹2,49,990</div></div><div class="dpct">−24%</div></div>
+      <div class="di"><div class="dem">🖥️</div><div><div class="din">LG UltraWide 34" Monitor</div><div class="dip">₹42,990 · Was ₹65,990</div></div><div class="dpct">−35%</div></div>
+      <div class="di"><div class="dem">🎵</div><div><div class="din">Marshall Emberton III</div><div class="dip">₹9,999 · Was ₹15,999</div></div><div class="dpct">−38%</div></div>
+    </div>
+  </div>
+  <!-- Deal cards carousel -->
+  <div class="cw" style="margin-top:0">
+    <button class="cn cprev" onclick="sc('deal',-1)">‹</button>
+    <div class="dc-c" id="dealC">
+      <div class="dcrd rv rd1"><div class="dcimg"><div class="dcbadge">−40%</div><span style="font-size:3.5rem">🎮</span></div><div class="dcinfo"><div class="dcname">Nintendo Switch OLED</div><div class="dcprice"><span class="dccur">₹18,999</span><span class="dcold">₹31,999</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+      <div class="dcrd rv rd2"><div class="dcimg"><div class="dcbadge">−33%</div><span style="font-size:3.5rem">🎧</span></div><div class="dcinfo"><div class="dcname">boAt Rockerz 550 Pro</div><div class="dcprice"><span class="dccur">₹1,999</span><span class="dcold">₹2,990</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+      <div class="dcrd rv rd3"><div class="dcimg"><div class="dcbadge">−50%</div><span style="font-size:3.5rem">⌨️</span></div><div class="dcinfo"><div class="dcname">Keychron K2 Keyboard</div><div class="dcprice"><span class="dccur">₹5,499</span><span class="dcold">₹10,999</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+      <div class="dcrd rv rd4"><div class="dcimg"><div class="dcbadge">−28%</div><span style="font-size:3.5rem">💡</span></div><div class="dcinfo"><div class="dcname">Philips Hue Starter Kit</div><div class="dcprice"><span class="dccur">₹7,199</span><span class="dcold">₹9,999</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+      <div class="dcrd rv"><div class="dcimg"><div class="dcbadge">−45%</div><span style="font-size:3.5rem">🖱️</span></div><div class="dcinfo"><div class="dcname">Logitech MX Master 3S</div><div class="dcprice"><span class="dccur">₹5,499</span><span class="dcold">₹9,999</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+      <div class="dcrd rv"><div class="dcimg"><div class="dcbadge">−22%</div><span style="font-size:3.5rem">📱</span></div><div class="dcinfo"><div class="dcname">Samsung Galaxy S24 FE</div><div class="dcprice"><span class="dccur">₹38,999</span><span class="dcold">₹49,999</span></div><button class="bcart" onclick="ac(this)">Add to Cart</button></div></div>
+    </div>
+    <button class="cn cnext" onclick="sc('deal',1)">›</button>
+    <div class="cdots" id="dealDots"><div class="cdot active"></div><div class="cdot"></div><div class="cdot"></div></div>
+  </div>
+</section>
+
+<!-- TRENDING -->
+<section class="trending" id="trending">
+  <div class="shdr">
+    <div><div class="slbl rv">Trending Now</div><h2 class="rv rd1">What everyone's<br>buying. 📈</h2></div>
+    <a class="val rv" href="#">See all →</a>
+  </div>
+  <div class="cw">
+    <button class="cn cprev" onclick="sc('trend',-1)">‹</button>
+    <div class="tc" id="trendC">
+      <div class="tcard rv rd1"><span class="temoji">🎧</span><div class="tname">Wireless Earbuds</div><div class="titems">4,200+ sold today</div></div>
+      <div class="tcard rv rd2"><span class="temoji">👜</span><div class="tname">Tote Bags</div><div class="titems">2,800+ sold today</div></div>
+      <div class="tcard rv rd3"><span class="temoji">💊</span><div class="tname">Supplements</div><div class="titems">1,900+ sold today</div></div>
+      <div class="tcard rv rd4"><span class="temoji">🏃</span><div class="tname">Running Shoes</div><div class="titems">3,100+ sold today</div></div>
+      <div class="tcard rv"><span class="temoji">🧘</span><div class="tname">Yoga Mats</div><div class="titems">1,400+ sold today</div></div>
+      <div class="tcard rv"><span class="temoji">🌿</span><div class="tname">Indoor Plants</div><div class="titems">800+ sold today</div></div>
+      <div class="tcard rv"><span class="temoji">☕</span><div class="tname">Coffee Gear</div><div class="titems">1,100+ sold today</div></div>
+      <div class="tcard rv"><span class="temoji">📷</span><div class="tname">Camera Lenses</div><div class="titems">600+ sold today</div></div>
+    </div>
+    <button class="cn cnext" onclick="sc('trend',1)">›</button>
+    <div class="cdots" id="trendDots"><div class="cdot active"></div><div class="cdot"></div><div class="cdot"></div></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="tests">
+  <div class="shdr">
+    <div><div class="slbl rv">Reviews</div><h2 class="rv rd1">Loved by real<br>shoppers 💬</h2></div>
+    <a class="val rv" href="#">All reviews →</a>
+  </div>
+  <div class="cw">
+    <button class="cn cprev" onclick="sc('test',-1)">‹</button>
+    <div class="tesc" id="testC">
+      <div class="tecard rv rd1"><div class="tetop"><div class="teav avg">R</div><div class="testars">★★★★★</div></div><p class="tequote">"Buggy just hits different. Delivery was next-day, product exactly as described. The green theme makes it feel fresh and trustworthy."</p><div><div class="tename">Riya Sharma</div><div class="terole">Regular Shopper · Delhi</div></div></div>
+      <div class="tecard rv rd2"><div class="tetop"><div class="teav avb">A</div><div class="testars">★★★★★</div></div><p class="tequote">"The recommendations are scary accurate. Found products I didn't know I needed. Returns are genuinely painless — no calls, just clicks."</p><div><div class="tename">Arjun Menon</div><div class="terole">Tech Enthusiast · Bangalore</div></div></div>
+      <div class="tecard rv rd3"><div class="tetop"><div class="teav avo">P</div><div class="testars">★★★★★</div></div><p class="tequote">"Flash deals saved me ₹8,000 last month alone. I do all my shopping on Buggy now. It's genuinely the best ecommerce experience in India."</p><div><div class="tename">Priya Nair</div><div class="terole">Fashion Lover · Mumbai</div></div></div>
+      <div class="tecard rv rd4"><div class="tetop"><div class="teav avp">M</div><div class="testars">★★★★★</div></div><p class="tequote">"As a seller, the dashboard is incredible. My sales went up 3x in two months. Best marketplace platform I've ever listed on."</p><div><div class="tename">Mohit Gupta</div><div class="terole">Seller · Jaipur</div></div></div>
+    </div>
+    <button class="cn cnext" onclick="sc('test',1)">›</button>
+    <div class="cdots" id="testDots"><div class="cdot active"></div><div class="cdot"></div><div class="cdot"></div></div>
+  </div>
+</section>
+
+<!-- APP BANNER -->
+<section class="app" id="about">
+  <div class="apptxt rv">
+    <div class="slbl" style="color:rgba(255,255,255,.7)">Mobile App</div>
+    <h2>Shop anywhere,<br>anytime. 📲</h2>
+    <p>The Buggy app puts 5M+ products in your pocket. Exclusive app-only deals, real-time order tracking, and one-tap checkout.</p>
+    <div class="appbtns">
+      <div class="asb"><div class="asbi">🍎</div><div><div class="assub">Download on the</div><div class="asname">App Store</div></div></div>
+      <div class="asb"><div class="asbi">▶️</div><div><div class="assub">Get it on</div><div class="asname">Google Play</div></div></div>
+    </div>
+  </div>
+  <div class="appphone rv rd2"><div class="pm">📱</div></div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl">
+  <div class="nli rv">
+    <div class="slbl" style="justify-content:center">Newsletter</div>
+    <h2>Get deals before<br>anyone else. ✉️</h2>
+    <p>Join 200K+ subscribers getting early access to flash sales, new drops, and members-only coupons every week.</p>
+    <div class="nlf">
+      <input class="nlinput" type="email" placeholder="your@email.com">
+      <button class="btn-p" style="white-space:nowrap;padding:14px 26px">Subscribe →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fg-grid">
+    <div>
+      <div class="flogo"><div class="fli">🛒</div>Buggy</div>
+      <p class="fdesc">India's fastest-growing ecommerce platform. The best products, fastest deliveries, and cleanest shopping experience.</p>
+      <div class="socials">
+        <div class="sb2">𝕏</div><div class="sb2">in</div><div class="sb2">ig</div><div class="sb2">yt</div>
+      </div>
+    </div>
+    <div>
+      <div class="fh">Shop</div>
+      <ul class="flinks"><li><a href="#">Electronics</a></li><li><a href="#">Fashion</a></li><li><a href="#">Home & Living</a></li><li><a href="#">Gaming</a></li><li><a href="#">Beauty</a></li><li><a href="#">Sports</a></li></ul>
+    </div>
+    <div>
+      <div class="fh">Support</div>
+      <ul class="flinks"><li><a href="#">Track Order</a></li><li><a href="#">Returns & Refunds</a></li><li><a href="#">Contact Us</a></li><li><a href="#">FAQs</a></li><li><a href="#">Seller Portal</a></li></ul>
+    </div>
+    <div>
+      <div class="fh">Company</div>
+      <ul class="flinks"><li><a href="#">About Us</a></li><li><a href="#">Careers</a></li><li><a href="#">Press</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li></ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <span class="fc2">© 2026 Buggy Technologies Pvt. Ltd. All rights reserved.</span>
+    <span class="fc2">Made with 💚 in India</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
